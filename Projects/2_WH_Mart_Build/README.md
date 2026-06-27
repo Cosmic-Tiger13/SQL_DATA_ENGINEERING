@@ -2,7 +2,7 @@
 
 An end-to-end data engineering pipeline that transforms raw CSV files from Google Cloud Storage into a normalized star schema data warehouse, then builds analytical data marts.
 
-![Data Pipeline Architecture](../../Resources/1_2_Project2_Data_Pipeline.png)
+![Data Pipeline Architecture](https://github.com/lukebarousse/SQL_Data_Engineering_Course/blob/main/Resources/images/1_2_Project2_Data_Pipeline.png?raw=true)
 
 ---
 
