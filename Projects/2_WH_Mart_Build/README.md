@@ -2,7 +2,7 @@
 
 An end-to-end data engineering pipeline that transforms raw CSV files from Google Cloud Storage into a normalized star schema data warehouse, then builds analytical data marts.
 
-![Data Pipeline Architecture](https://github.com/lukebarousse/SQL_Data_Engineering_Course/blob/main/Resources/images/1_2_Project2_Data_Pipeline.png?raw=true)
+![Data Pipeline Architecture](https://github.com/Cosmic-Tiger13/SQL_DATA_ENGINEERING/blob/main/Projects/Resources/1_2_Project2_Data_Pipeline.png?raw=true)
 
 ---
 
@@ -61,7 +61,7 @@ Raw job posting data arrives as flat CSV files in Google Cloud Storage—not str
 ## 🏗️ Pipeline Architecture
 
 
-![Data Pipeline Architecture](../../Resources/images/1_2_Project2_Data_Pipeline.png)
+![Data Pipeline Architecture](https://github.com/Cosmic-Tiger13/SQL_DATA_ENGINEERING/blob/main/Projects/Resources/1_2_Project2_Data_Pipeline.png?raw=true)
 
 The pipeline transforms job posting CSVs from Google Cloud Storage into a normalized star schema data warehouse, then builds specialized analytical data marts. BI tools (Excel, Power BI, Tableau, Python) consume from both the warehouse and marts.
 
@@ -69,7 +69,7 @@ The pipeline transforms job posting CSVs from Google Cloud Storage into a normal
 
 The data warehouse implements a star schema with `company_dim`, `skills_dim`, `job_postings_fact`, and `skills_job_dim` tables.
 
-![Data Warehouse Schema](../../Resources/images/1_2_Data_Warehouse.png)
+![Data Warehouse Schema](https://github.com/Cosmic-Tiger13/SQL_DATA_ENGINEERING/blob/main/Projects/Resources/1_2_Data_Warehouse.png?raw=true)
 
 - **SQL Files:**
   - [`01_create_tables_dw.sql`](./01_create_tables_dw.sql) – Defines star schema with 4 core tables
@@ -81,7 +81,7 @@ The data warehouse implements a star schema with `company_dim`, `skills_dim`, `j
 
 Denormalized table with all dimensions for ad-hoc queries.
 
-![Flat Mart Schema](../../Resources/images/1_2_Flat_Mart.png)
+![Flat Mart Schema]()
 
 - **SQL File:** [`03_create_flat_mart.sql`](./03_create_flat_mart.sql) – Builds denormalized table with all dimensions joined
 - **Purpose:** Denormalized table for quick ad-hoc queries
